@@ -41,3 +41,9 @@ resourceDetails.setGrantType("client_credentials");
 
 final RestTemplate oauthClient = new OAuth2RestTemplate(resourceDetails);
 ```
+
+# References
+
+- https://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/html/oauth2.html
+- https://github.com/spring-projects/spring-security/wiki/OAuth-2.0-Migration-Guide
+- https://github.com/oktadev/okta-spring-boot-client-credentials-example/tree/main/client-webclient
