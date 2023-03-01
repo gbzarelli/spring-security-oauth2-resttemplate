@@ -47,16 +47,16 @@ final RestTemplate oauthClient = new OAuth2RestTemplate(resourceDetails);
 Change the `spring-boot-starter-oauth2-client` dependency to:
 
 ```xml
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-oauth2-client</artifactId>
-			<version>5.7.7</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-oauth2-core</artifactId>
-			<version>5.7.7</version>
-		</dependency>
+<dependency>
+	<groupId>org.springframework.security</groupId>
+	<artifactId>spring-security-oauth2-client</artifactId>
+	<version>5.7.7</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework.security</groupId>
+	<artifactId>spring-security-oauth2-core</artifactId>
+	<version>5.7.7</version>
+</dependency>
 ```
 
 # References
