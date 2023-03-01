@@ -42,6 +42,23 @@ resourceDetails.setGrantType("client_credentials");
 final RestTemplate oauthClient = new OAuth2RestTemplate(resourceDetails);
 ```
 
+## My project uses Spring Boot version previous **2.4.x** version
+
+Change the `spring-boot-starter-oauth2-client` dependency to:
+
+```xml
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-client</artifactId>
+			<version>5.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-core</artifactId>
+			<version>5.7.7</version>
+		</dependency>
+```
+
 # References
 
 - https://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/html/oauth2.html
